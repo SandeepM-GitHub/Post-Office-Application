@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Inter:wght@200;300;400;500;600;700&family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;600&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: rgba(184, 188, 204, 0.5);
+}
+
+.ipDiv {
+  color: #b8bccc80;
+  width: 1167px;
+  height: 41px;
+  margin-top: 10px;
+  margin-left: 41px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: left;
+}
+
+#ipInfo {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 41px;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.mapDiv {
+  width: 100%;
+  height: 34rem;
+  background: #575a85;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-block: 3rem;
+}
+
+#map {
+    width: 100%;
+    height: 95%;
+    background-color: white;
+}
+
+body > p {
+  color: #b8bccc;
+  width: 717px;
+  height: 59px;
+  margin-top: 61px;
+  margin-left: 372px;
+  margin-bottom: 75px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 59px;
+  text-align: center;
+}
+
+.moreInfo p {
+  width: 1167px;
+  height: 41px;
+  margin-top: 5px;
+  margin-left: 41px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 41px;
+  text-align: left;
+}
+
+.searchBar {
+  width: 100%;
+  margin-inline: auto;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+  border: 3px solid #575a85;
+  margin-bottom: 16px;
+}
+
+#searchInput {
+  flex: 1;
+  background: none;
+  color: #b8bccc;
+  border: none;
+  outline: none;
+  margin-left: 17px;
+}
+
+#postOfficeContainer {
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    justify-content: space-between;
+    padding-block: 2rem;
+}
+
+.postOfficeCard {
+    width: 30%;
+    border-radius: 10px;
+    background: #575A85;
+    padding: 1rem 1.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.postOfficeCard span {
+    color: rgba(184, 188, 204, 0.925);
+}

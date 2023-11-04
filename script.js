@@ -11,5 +11,5 @@ fetch('https://api.ipify.org?format=json')
 
 
 getStartedBtn.addEventListener('click', () => {
-    window.location.href = "../After-Click/details.html"
+    window.location.href = "details.html"
 })
